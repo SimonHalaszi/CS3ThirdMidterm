@@ -1,0 +1,8 @@
+/*
+
+PATTERNS
+- prototype: clone
+
+NOTES:
+
+*/

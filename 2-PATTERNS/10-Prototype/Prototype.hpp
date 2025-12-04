@@ -1,0 +1,6 @@
+/*
+
+PATTERNS
+- prototype: clone
+
+*/

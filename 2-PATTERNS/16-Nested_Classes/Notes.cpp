@@ -1,0 +1,8 @@
+/*
+
+PATTERNS
+- nested classes
+
+NOTES:
+
+*/

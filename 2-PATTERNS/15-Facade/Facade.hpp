@@ -1,0 +1,6 @@
+/*
+
+PATTERNS
+- facade: facade, subsystem
+
+*/

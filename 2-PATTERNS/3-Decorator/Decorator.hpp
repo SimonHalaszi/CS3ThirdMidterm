@@ -1,0 +1,6 @@
+/*
+
+PATTERNS
+- decorator: decoration, component
+
+*/
