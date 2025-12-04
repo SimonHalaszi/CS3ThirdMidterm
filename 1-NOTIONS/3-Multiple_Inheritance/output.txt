@@ -1,0 +1,6 @@
+BaseOne class feature
+BaseTwo class feature
+Protected BaseOne class feature
+BaseOne class feature
+BaseTwo class feature
+Protected BaseOne class feature

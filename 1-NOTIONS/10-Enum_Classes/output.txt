@@ -1,0 +1,1 @@
+Comparison of related scoped enums is legal

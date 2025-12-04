@@ -1,0 +1,30 @@
+----------------------
+Inside Derived Invoke
+From Derived10
+End Derived Invoke
+----------------------
+----------------------
+Inside DerivedAgain Invoke
+----------------------
+Inside Derived Invoke
+From Derived20
+End Derived Invoke
+----------------------
+From DerivedAgain20
+End DerivedAgain Invoke
+----------------------
+----------------------
+Inside DerivedAgain Invoke
+----------------------
+Inside Derived Invoke
+From Derived30
+End Derived Invoke
+----------------------
+From DerivedAgain30
+End DerivedAgain Invoke
+----------------------
+----------------------
+Inside Derived Invoke
+From Derived30
+End Derived Invoke
+----------------------

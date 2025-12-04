@@ -1,0 +1,4 @@
+Base* ptr = new Derived(10);
+ptr->printState(); Derived Class State: 10
+Base* copyPtr = ptr->clone();
+copyPtr->printState(); Derived Class State: 10

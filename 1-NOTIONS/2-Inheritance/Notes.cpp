@@ -7,14 +7,14 @@ Notions
 
 NOTES:
 
-* Base/Derived Classes
+* Base/Derived Classes {Studied in Template Method}
     - Class D may inherit the features of another class B, or extend class B
 
     - In this case
         - B - Base Class, Superclass - Provides generalizations of class D
         - D - Derived Class, Subclass - Provides specialization of class B
 
-* Inheritance
+* Inheritance {Studied in Template Method}
     EX:
         Class B {
             // Implementation
@@ -24,7 +24,7 @@ NOTES:
             // Derived from B
         };
 
-* Virtual Functions
+* Virtual Functions {Studied in Template Method}
     - What if necessary to manipulate objects regardless of specifics of
     derived class?
         - Need to draw figures regardless of specific implementation of figure
@@ -64,7 +64,7 @@ NOTES:
     classes must not override this function further, if they try compile-time
     error.
 
-* Pure Virtual Functions
+* Pure Virtual Functions {Studied in Template Method}
     - Abstract function (method/operation) - virtual function in base class that
     defines the function signature but does not give a base class implementation.
         - Pure Virtual Function - Same name for the idea, function prototype is
@@ -72,7 +72,7 @@ NOTES:
     - Concrete function (method/operation) - Function whose implementation is
     provided
 
-* Abstract class
+* Abstract class {Studied in Template Method}
     - Class that has at least on abstract function
     
     - Objects of these classes can not exist. Only pointers and references to
@@ -82,7 +82,7 @@ NOTES:
         - If derived from abstract class, has to implement all abstract functions
             - If not, derived class is also abstract
 
-* Access methods invoking overriden function in an overriding function
+* Access methods invoking overriden function in an overriding function {Studied in Chain Of Responsibility}
     - Possible to invoke overridden function by stating scope
 
     EX:
@@ -100,7 +100,7 @@ NOTES:
         };
 
         // In main
-        B* ptr = new B(); ptr->A::func();
+        B* ptr = new B; ptr->A::func();
         B b; b.A::func();
 
 */
