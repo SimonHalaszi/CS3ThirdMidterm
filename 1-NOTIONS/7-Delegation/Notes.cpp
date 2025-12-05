@@ -3,6 +3,8 @@
 Notions
 - delegation
 
+{Studied in Bridge}
+
 NOTES:
 
 * delegation {Studied in Bridge}

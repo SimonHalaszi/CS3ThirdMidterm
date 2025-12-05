@@ -4,6 +4,8 @@ Notions
 - multiple inheritance; private vs. public inheritance, 
   making a private method of base class public
 
+{Studied in Adapter}
+
 NOTES:
 
 * multiple inheritance {Studied in Adapter}

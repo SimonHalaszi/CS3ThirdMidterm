@@ -3,6 +3,8 @@
 Notions
 - push and pull implementation methods
 
+{Studied in Observer}
+
 NOTES:
 
 * push and pull implementation methods {Studied in Observer}

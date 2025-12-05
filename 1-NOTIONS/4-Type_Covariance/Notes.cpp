@@ -3,6 +3,8 @@
 Notions
 - type covariance
 
+{Studied in Prototype}
+
 NOTES:
 
 * type covariance {Studied in Prototype}

@@ -5,6 +5,8 @@ Notions
     functions, abstract classes, access methods invoking overriden
     function in an overriding function
 
+{Studied in Template Method} & {Studied in Chain Of Responsibility}
+
 NOTES:
 
 * Base/Derived Classes {Studied in Template Method}

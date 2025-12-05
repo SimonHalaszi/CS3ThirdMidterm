@@ -3,6 +3,8 @@
 Notions
 - C++11 enum classes
 
+{Studied in Prototype}
+
 NOTES:
 
 * C++11 enum classes {Studied in Prototype}

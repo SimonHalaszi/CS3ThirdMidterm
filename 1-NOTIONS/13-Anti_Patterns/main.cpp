@@ -8,3 +8,7 @@ c++ main.cpp
 rm ./a.out
 
 */
+
+int main() {
+    // Just trivia
+}

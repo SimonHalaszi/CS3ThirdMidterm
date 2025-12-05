@@ -3,8 +3,9 @@
 Notions
 - (forward) class declaration, elaborated type specifier
 
-NOTES:
+{Studied in Observer}
 
+NOTES:
 
 * (forward) class declaration, elaborated type specifier {Studied in Observer}
     - Classic forward class declaration

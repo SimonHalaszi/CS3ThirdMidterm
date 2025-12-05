@@ -1,0 +1,12 @@
+97
+da1ptr assigned to 0x6159533e42c0
+da1ptr assigned to 0x6159533e42c0
+Dynamic cast worked
+Dynamic cast did not work
+Dynamic cast worked
+Dynamic cast did not work
+10
+2560
+2560
+20
+30
