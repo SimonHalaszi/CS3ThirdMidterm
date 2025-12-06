@@ -43,7 +43,7 @@ and documentation, language independent.
         - Dashed arrow is typical for delegation, Dashed arrow represents
         dependency.
 
-* Object Diagram
+* Object Diagram {Studied in Decorator}
     - Shows objecs and references/pointers as the program is executed
 
     - Notation
@@ -55,7 +55,7 @@ and documentation, language independent.
 
     - Useful for illustrating layered design patterns like COR or Decorator
 
-* State Diagram - Depicts an object transitions through states
+* State Diagram - Depicts an object transitions through states {Studied in State}
     - An objects state is the whole of its values at any given time
 
     - Notation

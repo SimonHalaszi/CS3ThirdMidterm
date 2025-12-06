@@ -1,0 +1,5 @@
+Hello CharElement! With char d
+Im visiting a CharElement with char d
+Hello IntElement! With int 10
+Im visiting a IntElement with int 10
+Counting visitor visited 2 times.

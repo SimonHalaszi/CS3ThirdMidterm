@@ -1,0 +1,6 @@
+Observer o got notified that Subject s changed its data to: 1
+Observer o got notified that Subject s changed its data to: 2
+Observer o got notified that Subject s changed its data to: 4
+Observer o subscribed to Subject s
+Observer o got a message from Subject s
+Observer o unsubscribed from Subject s

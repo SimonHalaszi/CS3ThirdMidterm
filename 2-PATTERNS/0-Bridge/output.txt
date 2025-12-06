@@ -1,0 +1,5 @@
+NamedHandle Name: Handle. Delegating to concrete body
+1: int body did something.
+NamedHandle Name: Handle. Delegating to concrete body
+A: char body did something.
+10: int body did something.

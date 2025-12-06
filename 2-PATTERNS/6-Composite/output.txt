@@ -1,0 +1,24 @@
+Im a composite! Component: A
+Component: a inside of component a
+Component: b inside of component b
+No longer in a composite
+
+Component: a inside of component a
+
+Im a composite! Component: A
+Component: a inside of component a
+Component: b inside of component b
+Im a composite! Component: B inside of component B
+Component: c inside of component c
+Component: d inside of component d
+Component: e inside of component e
+No longer in a composite
+No longer in a composite
+
+Im a composite! Component: B inside of component B
+Component: c inside of component c
+Component: d inside of component d
+Component: e inside of component e
+No longer in a composite
+
+Component: e

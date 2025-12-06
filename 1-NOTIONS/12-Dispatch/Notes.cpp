@@ -33,4 +33,11 @@ NOTES:
             // In function body
                 v->visit(this); // Second dispatch to find correct visit override for object v point it.
 
+        Why double dispatch? To allow you to add functionality to element without having to clutter its interface.
+        Visitor can operate on an element and its data seperately by being accepted to visit. Elements interface stays
+        clean, just needs to add one accept function that takes in polymorphic visitor pointer. And visitors can have
+        multiple overloads for every derived version of element. Now element, and its derived classes, share a similar
+        interface of operation without have to clutter their own interfaces. And now visitor provides a modular solution
+        to the problem.
+
 */
