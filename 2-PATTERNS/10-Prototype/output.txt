@@ -1,0 +1,8 @@
+IntPrototype with state: 10
+CharPrototype with state: c
+IntPrototype with state: 10. Is getting cloned.
+IntPrototype with state: 10
+CharPrototype with state: c. Is getting cloned.
+CharPrototype with state: c
+IntPrototype with state: 10. Is getting cloned.
+IntPrototype with state: 10

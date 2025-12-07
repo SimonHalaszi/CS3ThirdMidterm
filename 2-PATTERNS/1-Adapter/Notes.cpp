@@ -35,4 +35,25 @@ NOTES:
             - Bridge: build new class hierachy
             - Adapter: Modify existing classes to particular use
 
+    Motivation in my words:
+
+    You have a legacy class (adaptee) that is "good enough" to accomplish a task it
+    just needs a little work. Instead of redefining this whole interface and
+    rewriting the code for your slight changes, you can simply inherit this
+    interface, or have an object of this legacy class, and wrap a new interface
+    around it for added functionality. If inherting use a private inheritance
+    so client doesnt get access to old interface. If using an object of this
+    legacy class make it private. Call the functions of the legacy class inside
+    your new interface (the adapter) to suit your needs. End result is exactly
+    what you needed without tedious recoding and work. Think std::stack adapts
+    std::deque.
+
+    In short,
+
+    Abstract Adapter interface defines the interface that will adapt
+    the interface of the adaptee. Concrete Adapter either inherits adaptee
+    class privately or has private object of it, then implements the Abstract
+    Adapter interface using the adaptees functionality. Makes the old
+    incompatible adaptee interface compatible for the adapter interface.
+
 */

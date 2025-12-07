@@ -59,7 +59,7 @@ class AbstractCommand {
 		virtual ~AbstractCommand()  {}
 		
 	protected:
-		// Pointer to the IntSequence so that commands can opeerate on it
+		// Pointer to the IntSequence so that commands can operate on it
 		IntSequence* intSequence_;
 };
 

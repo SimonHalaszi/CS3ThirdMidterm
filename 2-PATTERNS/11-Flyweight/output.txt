@@ -1,0 +1,4 @@
+Client A. Using Flyweight One which holds intrinsic data 1
+Client B. Using Flyweight Two which holds intrinsic data 2
+Client A. Using Flyweight Two which holds intrinsic data 2
+Two

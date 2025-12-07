@@ -1,0 +1,6 @@
+BoolClass w/ False, 540
+BoolClass w/ True, 10
+CharClass w/ d, 43
+StringClass w/ Hello There, 54
+BoolClass w/ False, 540
+BoolClass w/ True, 10

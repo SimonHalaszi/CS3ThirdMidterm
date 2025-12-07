@@ -34,4 +34,25 @@ NOTES:
     of all the added decorators. And since the component doesnt link to anything
     the decoration ends.
 
+    Motivation in my words:
+
+    Often times you want to layer functionality onto a class. Instead of
+    inheriting this class and adding more, which isnt flexible and cant
+    be dont at run-time, you can use decorator. Decorator forms a run-time
+    backwardly linked list of functionality. Where decorators, that inherit
+    a common base component, reference other components (which may be decorators
+    or the base component). When a decorator invokes its decoration function,
+    it does the funcionality it adds, then delegates to the component it
+    references to to additional decoration or to end the decoration if the
+    component is the base component.
+
+    In short,
+
+    Base component defines virtual function that decorators will override.
+    Decorators inherit the base compoonent interface and override this
+    function to add additional functionality (decoration). Decorators also
+    hold a Base Component pointer so that they can delegate to the next
+    decorator for the functionality it adds. Since base component doesnt delegate,
+    the traversal of decoration down this linked list ends at it.
+
 */

@@ -48,4 +48,27 @@ NOTES:
     And if implemented also means that the context can have potentially many states with
     potentially many different behaviors. Leading to even more complex and deep classes.
 
+    Motivation in my words:
+
+    You have a class (context) that wants to change functionality based on its
+    state. Instead of having messy if/else statements or switch statements you
+    delegate the semantics of what happens in that state to a state object.
+    Context can define methods that will result in state transitions that call
+    corresponding functions of the Abstract state interface so that transition
+    semantics is handled by the state interface. Context may also just have 
+    function that explicity changes state. Concrete states implement per state
+    functionality that determine transitions as stated above, or behavior while
+    in that state. States are usually implemented as singlestons as they usually do not
+    hold any data in themselves. Just logic and functionality that are delegated
+    to by the context. So multiple context are free to delegate to the same state
+    at the same time. If the state does hold data, dont use singleton.
+
+    In short,
+
+    Context holds Abstract State pointer that it delegates to to handle per state
+    operations such as transitions and functionality while in that state. Context
+    interface implements methods that delegate work to the Abstract state pointer.
+    Abstract State interface implements abstract methods for per state transitions
+    and functionality. Concrete States actually implement the per state behavior.
+
 */

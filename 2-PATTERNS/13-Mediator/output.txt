@@ -1,0 +1,8 @@
+Mediator is observing colleague t. Which has a integer 10. 
+Mediator is observing colleague t. Which has a integer 15. 
+Mediator is observing colleague m. Which has a integer 25. 
+Mediator is observing colleague e. Which has a integer 13. 
+Mediator is observing colleague t. Which has a integer 20. 
+Mediator is observing colleague m. Which has a integer 125. 
+Mediator is observing colleague e. Which has a integer 13. 
+Mediator is observing colleague e. Which has a integer 13. 

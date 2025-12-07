@@ -1,0 +1,10 @@
+1 2 
+State Checkpointed
+1 2 3 
+State Rollbacked
+1 2 
+1 2 4 5 
+State Checkpointed
+1 2 4 5 6 
+State Rollbacked
+1 2 4 5 

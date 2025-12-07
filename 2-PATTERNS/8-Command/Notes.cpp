@@ -40,4 +40,24 @@ NOTES:
 
 		- Invoker - Asks to execute the command
 
+	Motivation in my words:
+
+	Sometimes its useful to keep track at what functions were called at
+	run-time on an object (receiver), this is useful for keeping history,
+	undoing, or loggic functions that were invoked.
+    
+    Technical Details:
+
+	AbstractCommand class is defined to give an interface to all ConcreteCommand
+	classes to implement. This usually includes an execute and unexecute function
+	and a ReceiverClass* pointer. The ConcreteCommand classes implement this interface
+	by calling functions of the ReceiverClass and by tracking what object they
+	executed on through the pointer. ConcreteCommand may also hold state information
+	of what exactly their command did to the object, to be able to unexecute their
+	action. Invoker may then be a class or a programmer that dynamically allocates
+	new commands with the receiver and then executes these commands. The invoker
+	then is free to use these commands to keep run-time track of what has happended
+	to the receiver.
+
+
 */
