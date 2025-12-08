@@ -21,12 +21,12 @@ NOTES:
         for request, delegates request to appropraite subsystem
         objects
 
-        - Subsystem classes - Implement functioanlity, are not away
+        - Subsystem classes - Implement functioanlity, are not aware
         of facade
 
     - Promotes loose couple between clients and subsystem
 
-    - Structural pattern
+    Structural pattern
 
     Relationships to Other Patterns
     

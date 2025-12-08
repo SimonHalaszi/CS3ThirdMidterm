@@ -19,10 +19,10 @@ NOTES:
     Overload resolution is a static dispatch.
     
     - Dynamic dispatch - run-time selection
-        - Single Dispatch - Selection based on a single object, supported
+        - Single Dispatch - Selection based on type of single object, supported
         in C++ using virtual functions
 
-        - Double Dispatch - Selection based on multiple objects, not
+        - Double Dispatch - Selection based on type of multiple objects, not
         directly support by C++ but implemented using Visitor Design Pattern
         which goes something like this...
 

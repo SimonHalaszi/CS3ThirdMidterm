@@ -30,6 +30,8 @@ NOTES:
         - Concrete type of the element (pass as parameter to visit()), that is,
         the implementation depends on two objects (double dispatch)
 
+    Behavioral Pattern
+
     Motivation in my words:
 
     You have a class (element) whose interface you dont want to clutter with a bunch of 

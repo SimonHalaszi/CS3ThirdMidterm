@@ -29,6 +29,9 @@ NOTES:
 
     Motivation in my words:
 
+    Keep interface hierarchy clean by delegating work for implementations to a seperate
+    implementation hierarchy
+
     You have a class (the handle) that wants to implements a functionality and its
     associated variables. This will add clutter to this classes interface and
     might make the code harder to read. This process might also might not be

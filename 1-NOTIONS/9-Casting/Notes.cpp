@@ -20,6 +20,8 @@ NOTES:
     is consulted), if incorrect returns nullptr and throws std::bad_cast for references.
     Must be ran an polymorphic types. If base class doesnt have virtuals,
     vtable not generated, and dynamic_cast wont compile. new_type must be pointer or reference.
+
+    Actually consults v-table to see if object that is being cast to new type is of that type or derives it
         
         Uses cases given: Dr1 and Dr2 derive from Base and OtherClass is not related at all...
 
@@ -32,11 +34,14 @@ NOTES:
         OtherClass* ocptr;
 
         dr1ptr = dynamic_cast<Dr1*>(ptr); // Success returns dynamically allocated obj
+
         dr2ptr = dynamic_cast<Dr2*>(ptr); // Illegal returns nullptr
 
-        baseptr = dynamic_cast<Base*>(dr1ptr); // Succes, returns dynamically allocated obj
+        baseptr = dynamic_cast<Base*>(dr1ptr); // Success, returns dynamically allocated obj
+        // (Only works if Base has virtual functions/is polymorphic and isnt abstract)
 
-        baseptr = dynamic_cast<Base*>(ptr); // Succes, returns dynamically allocated obj, though redundant
+        baseptr = dynamic_cast<Base*>(ptr); // Success, returns dynamically allocated obj, though redundant
+        // (Only works if Base has virtual functions/is polymorphic and isnt abstract)
 
         ocptr = dynamic_cast<OtherClass*>(ptr); // Illegal returns nullptr
 

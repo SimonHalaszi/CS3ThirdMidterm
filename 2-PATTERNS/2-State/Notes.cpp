@@ -50,6 +50,9 @@ NOTES:
 
     Motivation in my words:
 
+    When you have a class whose functionality depends on state and you want to
+    delegate this functionality to another class.
+
     You have a class (context) that wants to change functionality based on its
     state. Instead of having messy if/else statements or switch statements you
     delegate the semantics of what happens in that state to a state object.

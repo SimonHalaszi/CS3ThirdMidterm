@@ -36,6 +36,10 @@ NOTES:
 
     Motivation in my words:
 
+    When you need to layer functionality on top of an object form this layer
+    of functionality by delegating to the next object that adds it in a chain
+    of functionality additions.
+
     Often times you want to layer functionality onto a class. Instead of
     inheriting this class and adding more, which isnt flexible and cant
     be dont at run-time, you can use decorator. Decorator forms a run-time

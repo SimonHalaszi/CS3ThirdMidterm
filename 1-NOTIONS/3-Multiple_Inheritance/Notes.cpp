@@ -19,9 +19,15 @@ NOTES:
         - Concrete functions of base class - both interface
         and implementation
 
-    - Private Inheritance - Allows to inherit implementation
-    interface is not inherited (by default)
+        - By default public features of base class are
+        now public in this class
+
+    - Private Inheritance - Allows to inherit implementation,
+    interface is not inherited to clients (by default)
         - Features may be added to interface with using
+
+        - By default public features of base class are now
+        private in this class
 
 * making a private method of base class public {Studied in Adapter}
     - If inheriting a private base class feature, it may be made public

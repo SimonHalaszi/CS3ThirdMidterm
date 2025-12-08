@@ -9,7 +9,8 @@ NOTES:
 
 * resource pool: reasons, situations
     - pool - collection of resources to be kept ready to use
-        - rather than acquired when needed and released when done
+        - rather than acquired (allocated) when needed and 
+        released (deallocated) when done
     
     - reasons
         - resource savings on acquisition and release
@@ -17,7 +18,8 @@ NOTES:
     
     - situations
         - expensive to compute objects (graphics, fonts, bitmaps)
-        - high rate of requests, predictable concurrent number of requests
+        - high rate of requests, predictable concurrent number of requests,
+        can pre allocate these objects before request.
     
     - examples
         - thread pools

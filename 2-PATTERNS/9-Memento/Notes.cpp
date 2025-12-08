@@ -29,6 +29,8 @@ NOTES:
         - Caretaker - Keeps memento does not access or examins
         memento's contents
 
+    Behavioral Pattern
+
     Motivation in my words:
 
     Its useful to store the old state of something in case you need to recover it

@@ -18,7 +18,7 @@ NOTES:
     the base handler
 
     - Base class keeps track of the chain of handlers
-        - Dispatches to successor handler if previous pushes it up
+        - Delegates to successor handler if previous pushes it up
 
     - Behavioral pattern
 
@@ -40,7 +40,7 @@ NOTES:
 
     A BaseHandler is declared that defines a BaseHandler* successor. BaseHandler
     also defines a virtual function that handles the data given to it. In the 
-    BaseHandle implementation this function just checks if the successor exists
+    BaseHandle implementation this function it just checks if the successor exists
     and if it does it will delegate the functionality to it. If it does not the
     chain stops and nothing was able to handle the data. The classes that derive
     the BaseHandler then override this function. If the inputted data meets

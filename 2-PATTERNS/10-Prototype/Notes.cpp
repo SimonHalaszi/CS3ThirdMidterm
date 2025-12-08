@@ -40,6 +40,8 @@ NOTES:
 
     Motivation in my words:
 
+    When you need top copy objects through a polymorphic interface
+
     Copying an object is a very useful functionality. Sometimes thats
     not possible, say like in C++ where copy constructors can not be
     virtual. Prototype ensures the capability to copy dynamically

@@ -18,5 +18,5 @@ NOTES:
         consequences than good ones
         - there is a more effective solution
 
-    - god object is an anti patter
+    - god object is an anti pattern
 */

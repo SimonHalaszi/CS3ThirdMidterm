@@ -35,6 +35,8 @@ NOTES:
     - Frequently used with Visitor Pattern where Composite implements traversal
     while Visitor implements prrocessing of individual elements
 
+    Structural Pattern
+
     Motivation in my words:
 
     Many times small things compose larger things that agregate these small things

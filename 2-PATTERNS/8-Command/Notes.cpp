@@ -40,7 +40,12 @@ NOTES:
 
 		- Invoker - Asks to execute the command
 
+	Behavioral Pattern
+
 	Motivation in my words:
+
+	Turns function call into standalone object that contains information
+	about this function call.
 
 	Sometimes its useful to keep track at what functions were called at
 	run-time on an object (receiver), this is useful for keeping history,
@@ -58,6 +63,5 @@ NOTES:
 	new commands with the receiver and then executes these commands. The invoker
 	then is free to use these commands to keep run-time track of what has happended
 	to the receiver.
-
 
 */

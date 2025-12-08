@@ -37,6 +37,10 @@ NOTES:
 
     Motivation in my words:
 
+    When you want to make an old interface that is "good enough" conform
+    to a new purpose by obscuring its interface and using it for a new
+    one.
+
     You have a legacy class (adaptee) that is "good enough" to accomplish a task it
     just needs a little work. Instead of redefining this whole interface and
     rewriting the code for your slight changes, you can simply inherit this

@@ -39,6 +39,8 @@ NOTES:
 
 	- If abused, Mediator may turn into a God Object
 
+	Behavioral Pattern
+
 	Motivation in my words:
 
     When you want to have a central object that can communicate to
@@ -62,6 +64,5 @@ NOTES:
 	Mediator can observe its colleagues at anytime, and can send a message to
 	any colleague at any time. And the colleagues can handle these messages at
 	any time and can message the Mediator at any time.
-	
 
 */

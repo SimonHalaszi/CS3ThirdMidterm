@@ -40,24 +40,7 @@ NOTES:
 
     - Elimated if/else behavior selection in the code
 
-    - Behavioral pattern
-
-    Motivation from how I see it. You have a perfectly good context object
-    that you would like to implement run-time handling of its data to. Instead
-    of cluttering this contexts interface you establish a strategy heirarchy that
-    accesses the context already existing data members via push or pull, and then
-    operates on that data to accomplish a task. This keeps the context interface
-    clean while potentially countless amount of strategies can now operate on its
-    data. In case of push only need to add a AbstractStrategy pointer and an
-    execute function that gives the relevant data. And in case of pull you just
-    need to implement setter and getter functions that are probably already part
-    of the interface. In both approaches the implementation is simple and leads
-    to a uncluttered context with countless possibilites for data operation. Though
-    I personally favour the Pull method as it simply does not clutter the context
-    interface at all as the needed functionality to support strategy is most likely
-    already in the context. Though push is usually prefered because only relevant
-    data is given to strategy and so strategy can not be used maliciously to cause
-    sideffects.
+    Behavioral pattern
 
     Motivation in my words:
   

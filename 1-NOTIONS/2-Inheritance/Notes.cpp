@@ -13,7 +13,7 @@ NOTES:
     - Class D may inherit the features of another class B, or extend class B
 
     - In this case
-        - B - Base Class, Superclass - Provides generalizations of class D
+        - B - Base Class, Superclass - Provides generalizations for class D
         - D - Derived Class, Subclass - Provides specialization of class B
 
 * Inheritance {Studied in Template Method}
@@ -48,7 +48,7 @@ NOTES:
         - Respective derived class draw() would be invoked
 
     - To enable late binding, declare function as virtual in base class
-        - Function used in late-binding fashion displays polymorphic behavior
+        - Function used with late-binding displays polymorphic behavior
         EX:
             class B {
                 virtual void draw();

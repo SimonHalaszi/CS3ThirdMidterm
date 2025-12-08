@@ -43,28 +43,30 @@ NOTES:
 		- Often used in composite to maintain leaf nodes
 			- Flyweight will define intrinsic states of leaf nodes
 
+	Structural Pattern
+
     Motivation in my words:
 
     Some read only objects can be big and expensive. In this case its useful 
 	to only initialize these objects once and reference their intrinsic info 
 	when needed, instead of copying this info many times. On top of this
-	its useful to have a registry that handles the finding of these objects
+	its useful to have a factory that handles the finding of these objects
 	for the client.
       
     Technical Details:
 
 	AbstractFlyweight class defines an interface for the potentially large and
 	expensive objects. ConcreteFlyweights implement that actual functionality
-	of these objects. A, typically singleton, FlyweightRegistry class holds
+	of these objects. A, typically singleton, FlyweightFactory class holds
 	a static map that maps Flyweight indentifiers to their corresponding 
 	AbstractFlyweight* pointers. When a client needs to reference the expensive data
-	held by the Flyweights they consult the FlyweightRegistry for the Flyweight
+	held by the Flyweights they consult the FlyweightFactory for the Flyweight
 	by identifier. The data of these Flyweights is immutable and read-only.
-	Clients are only free to reference it not change it. FlyweightRegistry
+	Clients are only free to reference it not change it. FlyweightFactory
 	handles the creation of Flyweights as they are needed. If client ask
 	for unintialized valid identifier it creates the new large ConcreteFlyweight
 	object and returns it. If the client ask for an intialized indentifer the
-	FlyweightRegistry returns a AbstractFlyweight* pointer to the corresponding
+	FlyweightFactory returns a AbstractFlyweight* pointer to the corresponding
 	ConcreteFlyweight. Clients own state and data is known as the extrinsic information
 	while the data the client refers to with the AbstractFlyweight pointer is
 	the Flyweights intrisic data.

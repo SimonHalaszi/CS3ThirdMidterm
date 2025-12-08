@@ -46,6 +46,9 @@ NOTES:
             - Say as in non-registry observer where observers must be
             initialized with the subject they want to observe
 
+    Structural Pattern - If it doesnt create just holds
+    Creational Pattern - If it creates and holds
+
     Motivation in my words:
 
     Kinda already went over in depth in other patterns. But its very
